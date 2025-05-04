@@ -12292,7 +12292,7 @@ const __vite__mapDeps = (
         [h, g] = i.useState(6),
         [y, v] = i.useState(0),
         b = i.useRef(null),
-        x = ["all", "web", "mobile","blockchain", "AI"],
+        x = ["all", "web", "mobile","blockchain", "ai",],
         w = r.filter((e) => "all" === u || e.category.toLowerCase() === u);
       i.useEffect(() => {
         const e = () => {
@@ -12433,7 +12433,7 @@ const __vite__mapDeps = (
                       "bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 px-6 py-3 rounded-lg flex items-center gap-2 shadow-sm transition-all duration-300 hover:shadow",
                     children: [
                       "Load more projects",
-                      e.jsx(ChevronDown, { size: 18 }),
+                      // e.jsx(ChevronDown, { size: 18 }),
                     ],
                   }),
                 }),
@@ -12939,50 +12939,105 @@ const __vite__mapDeps = (
                 tags: ["React-Native", "Express", "Firebase", "Stripe"],
                 featured: !0,
               },
-              // {
-              //   title: "Gahigi - AI Career Coach",
-              //   description: "Meet Gahigi, your personal AI career coach. Designed to help young professionals in Rwanda, Gahigi offers personalized guidance and practical tools to kick-start your career. Whether you're preparing for interviews, building essential skills, or exploring the job market, Gahigi is your virtual mentor. Powered by AI, Gahigi provides tailored career advice, skill-building exercises, and interview simulations to boost your confidence and employability.",
-              //   image:
-              //     "https://i.postimg.cc/0Nrd0d3G/gahigi.png",
-              //   github: "https://github.com/mattdev071/gahig-mono",
-              //   link: "",
-              //   category: "ai",
-              //   tags: ["Next.js", "NestJS", "MUI", "LLaMA", "Mixtral AI", "Prompt Engineering", "GROQ API"],
-              //   featured: !0,
-              // },
+              {
+                title: "Gahigi - AI Career Coach",
+                description: "Meet Gahigi, your personal AI career coach. Designed to help young professionals in Rwanda, Gahigi offers personalized guidance and practical tools to kick-start your career. Whether you're preparing for interviews, building essential skills, or exploring the job market, Gahigi is your virtual mentor. Powered by AI, Gahigi provides tailored career advice, skill-building exercises, and interview simulations to boost your confidence and employability.",
+                image:
+                  "https://i.postimg.cc/0Nrd0d3G/gahigi.png",
+                github: "https://github.com/mattdev071/gahig-mono",
+                link: "https://github.com/mattdev071/gahig-mono",
+                category: "ai",
+                tags: ["Next.js", "NestJS", "MUI", "LLaMA", "Mixtral AI", "Prompt Engineering", "GROQ API"],
+                featured: !0,
+              },
               {
                 title: "WhatsApp AI Chatbot Flow Builder",
                 description: "The WhatsApp AI Chatbot Flow Builder lets businesses automate chat flows using a drag-and-drop UI. It supports editable questions, dynamic responses, and Twilio integration. Clean UI, easy setup, and smooth automation.",
                 image:
                   "https://i.postimg.cc/TPXWNztc/whatsappai.png",
                 github: "https://github.com/mattdev071/whatsapp-chatbot-ai",
-                link: "",
-                category: "ai",
+                link: "https://github.com/mattdev071/whatsapp-chatbot-ai",
+                category: "AI",
                 tags: ["Javascript", "React.js", "React Flow", "Node.js", "Express.js", "MongoDB", "Twillo API", "Open API", "Ngrok", "WhatsApp Business API"],
+                featured: !0,
+              },
+              {
+                title: "MOVIE RECOMMENDATION SYSTEM",
+                description: "A content-based movie recommendation system using movie names, actors, and genres, leveraging Kaggle datasets and the TMDB API for up-to-date movie data.",
+                image:
+                  "https://i.postimg.cc/Hn5SrdGR/movieflex.png",
+                github: "https://github.com/mattdev071/movie-flex",
+                link: "https://drive.google.com/file/d/1S1ib67oxXUzjfSjvPDZrygFUfGZGsQB5/view?usp=sharing",
+                category: "web",
+                tags: ["Python", "Flask", "Skicit-learn", "Pandas", "Jinja"],
+                featured: !0,
+              },
+              {
+                title: "Discord Token Swap Bot Using Jito",
+                description: "A professional-grade Discord bot for Solana token swaps, leveraging Jito Bundles. This bot seamlessly integrates with platforms like Raydium, Pump.fun, and Meteora, while utilizing the Dextools API and Jupiter v6 Swap API for efficient and reliable token swap operations.",
+                image:
+                  "https://i.postimg.cc/j5fr6DGS/discord-bot.webp",
+                github: "https://github.com/mattdev071/swapbot-sol-discord",
+                link: "https://github.com/mattdev071/swapbot-sol-discord",
+                category: "blockchain",
+                tags: ["Node.js", "TypeScript", "Discord.js", "Solana/Web3", "DexTool API", "Jupiter V6 Swap API", "Jito Bundle"],
+                featured: !0,
+              },
+              {
+                title: "Guardian Angel",
+                description: "An innovative Android application designed to enhance the well-being and safety of users by monitoring and providing personalized suggestions for various aspects of their daily lives.",
+                image:
+                  "https://i.postimg.cc/mkkvqrr0/guadian.jpg",
+                github: "https://github.com/mattdev071/guardian-kotlin",
+                link: "https://github.com/mattdev071/guardian-kotlin",
+                category: "mobile",
+                tags: ["Kotlin", "roomsdb", "python", "MongoDB", "Heroku"],
+                featured: !0,
+              },
+              {
+                title: "Forking Pump.fun (Solana, EVM)",
+                description: "Another pumpfun(https://pump.fun) built by me. Built frontend/backend for spl token create, market create. Built smart contract for bonding curve, make pool on raydium.",
+                image:
+                  "https://i.postimg.cc/j55WrrB0/pumpfun.png",
+                github: "https://github.com/mattdev071/my-pumpfun-frontend",
+                link: "https://app.ape.lol/",
+                category: "blockchain",
+                tags: ["React.js", "TailwindCSS", "Anchor", "Rust", "Web3.js", "Solidity"],
+                featured: !0,
+              },
+              {
+                title: "Omni DeFi",
+                description: "OmniDefi is a cutting-edge decentralized finance platform where users can provide liquidity, participate in pools, swap tokens via AMM, stake assets to earn rewards, lend money, and access detailed analytics, all in one seamless experience. Explore the future of DeFi with AstraDeFi.",
+                image:
+                  "https://i.postimg.cc/BvXvbCZR/astra.png",
+                github: "https://github.com/mattdev071/AstraDefi-frontend",
+                link: "https://astradefi.netlify.app/",
+                category: "blockchain",
+                tags: ["Next.js", "Postgresql", "AMM", "Rust", "Web3.js", "Solidity","Graphql", "TailwindCSS"],
                 featured: !0,
               },
             ],
           }),
-          e.jsx(t.div, {
-            className: "mt-8 text-center",
-            initial: { opacity: 0, y: 20 },
-            whileInView: { opacity: 1, y: 0 },
-            viewport: { once: !0 },
-            transition: { duration: 0.5, delay: 0.3 },
-            children: e.jsx(t.a, {
-              href: "/projects",
-              whileHover: {
-                scale: 1.05,
-                backgroundColor: "#000000",
-                color: "#ffffff",
-              },
-              whileTap: { scale: 0.95 },
-              transition: { duration: 0.3 },
-              className:
-                "inline-block px-8 py-3 border-2 border-black text-black font-medium rounded-full transition-colors",
-              children: "View all projects",
-            }),
-          }),
+          // e.jsx(t.div, {
+          //   className: "mt-8 text-center",
+          //   initial: { opacity: 0, y: 20 },
+          //   whileInView: { opacity: 1, y: 0 },
+          //   viewport: { once: !0 },
+          //   transition: { duration: 0.5, delay: 0.3 },
+          //   children: e.jsx(t.a, {
+          //     href: "/projects",
+          //     whileHover: {
+          //       scale: 1.05,
+          //       backgroundColor: "#000000",
+          //       color: "#ffffff",
+          //     },
+          //     whileTap: { scale: 0.95 },
+          //     transition: { duration: 0.3 },
+          //     className:
+          //       "inline-block px-8 py-3 border-2 border-black text-black font-medium rounded-full transition-colors",
+          //     children: "View all projects",
+          //   }),
+          // }),
         ],
       }),
     });
