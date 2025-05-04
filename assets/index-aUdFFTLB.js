@@ -12885,6 +12885,17 @@ const __vite__mapDeps = (
           e.jsx(ne, {
             projects: [
               {
+                title: "Forking Pump.fun (Solana, EVM)",
+                description: "Another pumpfun(https://pump.fun) built by me. Built frontend/backend for spl token create, market create. Built smart contract for bonding curve, make pool on raydium.",
+                image:
+                  "https://i.postimg.cc/j55WrrB0/pumpfun.png",
+                github: "https://github.com/mattdev071/my-pumpfun-frontend",
+                link: "https://app.ape.lol/",
+                category: "blockchain",
+                tags: ["React.js", "TailwindCSS", "Anchor", "Rust", "Web3.js", "Solidity"],
+                featured: !0,
+              },
+              {
                 title: "Next Ventures",
                 description: "Developed a platform for virtual pitch competitions using Next.js 15, enabling smooth idea sharing and exploration with optimal performance.",
                 image:
@@ -12893,6 +12904,17 @@ const __vite__mapDeps = (
                 github: "https://github.com/mattdev071/Next-Venture-App",
                 category: "web",
                 tags: ["Next.js", "React", "Node.js", "MongoDB", "Sanity cms", "Auth.js", "TailwindCSS", "markdown", "GROQ", "Sentry"],
+                featured: !0,
+              },
+              {
+                title: "BMI-Calculator",
+                description: "A web application to calculate BMI. It uses the BMI formula to calculate the BMI.",
+                image:
+                  "https://i.postimg.cc/fThZ98Fd/calculator-bmi.png",
+                github: "https://github.com/mattdev071/calculator-bmi",
+                link: "",
+                category: "mobile",
+                tags: ["Flutter", "Dart", "Firebase"],
                 featured: !0,
               },
               {
@@ -12907,6 +12929,17 @@ const __vite__mapDeps = (
                 featured: !0,
               },
               {
+                title: "Discord Token Swap Bot Using Jito",
+                description: "A professional-grade Discord bot for Solana token swaps, leveraging Jito Bundles. This bot seamlessly integrates with platforms like Raydium, Pump.fun, and Meteora, while utilizing the Dextools API and Jupiter v6 Swap API for efficient and reliable token swap operations.",
+                image:
+                  "https://i.postimg.cc/j5fr6DGS/discord-bot.webp",
+                github: "https://github.com/mattdev071/swapbot-sol-discord",
+                link: "https://github.com/mattdev071/swapbot-sol-discord",
+                category: "blockchain",
+                tags: ["Node.js", "TypeScript", "Discord.js", "Solana/Web3", "DexTool API", "Jupiter V6 Swap API", "Jito Bundle"],
+                featured: !0,
+              },
+              {
                 title: "FLux Lura",
                 description: "a free online tool for seamless multimedia conversion. Effortlessly transform images, audio, and videos with ease and elevate your content instantly!",
                 image:
@@ -12917,17 +12950,7 @@ const __vite__mapDeps = (
                 tags: ["Next.js", "React", "TailwindCSS", "TypeScript", "Framer Motion", "Shadcn", "FFmpeg"],
                 featured: !1,
               },
-              {
-                title: "BMI-Calculator",
-                description: "A web application to calculate BMI. It uses the BMI formula to calculate the BMI.",
-                image:
-                  "https://i.postimg.cc/fThZ98Fd/calculator-bmi.png",
-                github: "https://github.com/mattdev071/calculator-bmi",
-                link: "",
-                category: "mobile",
-                tags: ["Flutter", "Dart", "Firebase"],
-                featured: !0,
-              },
+              
               {
                 title: "PVR-APP",
                 description: "A mobile application to book movie tickets. It has stripe payment gateway for online transactions. It also has a QR code scanner to scan the ticket.",
@@ -12972,17 +12995,7 @@ const __vite__mapDeps = (
                 tags: ["Python", "Flask", "Skicit-learn", "Pandas", "Jinja"],
                 featured: !0,
               },
-              {
-                title: "Discord Token Swap Bot Using Jito",
-                description: "A professional-grade Discord bot for Solana token swaps, leveraging Jito Bundles. This bot seamlessly integrates with platforms like Raydium, Pump.fun, and Meteora, while utilizing the Dextools API and Jupiter v6 Swap API for efficient and reliable token swap operations.",
-                image:
-                  "https://i.postimg.cc/j5fr6DGS/discord-bot.webp",
-                github: "https://github.com/mattdev071/swapbot-sol-discord",
-                link: "https://github.com/mattdev071/swapbot-sol-discord",
-                category: "blockchain",
-                tags: ["Node.js", "TypeScript", "Discord.js", "Solana/Web3", "DexTool API", "Jupiter V6 Swap API", "Jito Bundle"],
-                featured: !0,
-              },
+              
               {
                 title: "Guardian Angel",
                 description: "An innovative Android application designed to enhance the well-being and safety of users by monitoring and providing personalized suggestions for various aspects of their daily lives.",
@@ -12994,17 +13007,7 @@ const __vite__mapDeps = (
                 tags: ["Kotlin", "roomsdb", "python", "MongoDB", "Heroku"],
                 featured: !0,
               },
-              {
-                title: "Forking Pump.fun (Solana, EVM)",
-                description: "Another pumpfun(https://pump.fun) built by me. Built frontend/backend for spl token create, market create. Built smart contract for bonding curve, make pool on raydium.",
-                image:
-                  "https://i.postimg.cc/j55WrrB0/pumpfun.png",
-                github: "https://github.com/mattdev071/my-pumpfun-frontend",
-                link: "https://app.ape.lol/",
-                category: "blockchain",
-                tags: ["React.js", "TailwindCSS", "Anchor", "Rust", "Web3.js", "Solidity"],
-                featured: !0,
-              },
+              
               {
                 title: "Omni DeFi",
                 description: "OmniDefi is a cutting-edge decentralized finance platform where users can provide liquidity, participate in pools, swap tokens via AMM, stake assets to earn rewards, lend money, and access detailed analytics, all in one seamless experience. Explore the future of DeFi with AstraDeFi.",
