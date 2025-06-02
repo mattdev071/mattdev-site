@@ -11884,7 +11884,7 @@ const __vite__mapDeps = (
                     transition: { duration: 1.5, ease: "easeOut" },
                     className: "w-full h-full",
                     children: e.jsx("img", {
-                      src: "https://res.cloudinary.com/dvfrcaw1c/image/upload/v1727844899/nfiqbipqzllz5cs1ckew.png",
+                      src: "https://i.postimg.cc/T1D06s40/hero1.jpg",
                       alt: "Matt",
                       className: "w-full h-full object-cover",
                     }),
