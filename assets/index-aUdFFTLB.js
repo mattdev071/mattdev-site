@@ -12885,14 +12885,14 @@ const __vite__mapDeps = (
           e.jsx(ne, {
             projects: [
               {
-                title: "Forking Pump.fun (Solana, EVM)",
-                description: "Another pumpfun(https://pump.fun) built by me. Built frontend/backend for spl token create, market create. Built smart contract for bonding curve, make pool on raydium.",
+                title: "NFT-matketplace",
+                description: "NiFT a decentralized NFT marketplace, for the listing and sales of NFTs, also for the creation of NFT launchpad for certain durations for owners to raise liquidity and patronizers to have equity.",
                 image:
-                  "https://i.postimg.cc/j55WrrB0/pumpfun.png",
-                github: "https://github.com/mattdev071/my-pumpfun-frontend",
-                link: "https://app.ape.lol/",
+                  "https://i.postimg.cc/JzpNXFS8/nift.png",
+                github: "https://github.com/mattdev071/NFTmarketplace_Bunzz",
+                link: "https://nift-sooty.vercel.app/",
                 category: "blockchain",
-                tags: ["React.js", "TailwindCSS", "Anchor", "Rust", "Web3.js", "Solidity"],
+                tags: ["React.js", "TailwindCSS", "Anchor", "Solidity", "Web3.js"],
                 featured: !0,
               },
               {
