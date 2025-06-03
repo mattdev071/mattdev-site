@@ -12929,6 +12929,17 @@ const __vite__mapDeps = (
                 featured: !0,
               },
               {
+                title: "Token Launchpad",
+                description: "Mirage Launchpad Beta Version. Creating an SPL Token on the Solana blockchain. This application allows you to easily create a custom token on Solana",
+                image:
+                  "https://i.postimg.cc/nVdXNhP4/mirage.png",
+                github: "https://github.com/mattdev071/token-launchpad",
+                link: "https://token-launchpad-tzbi.vercel.app/create-token",
+                category: "blockchain",
+                tags: ["Next.js", "TailwindCSS", "SPL-token", "Solana", "Web3.js"],
+                featured: !0,
+              },
+              {
                 title: "Discord Token Swap Bot Using Jito",
                 description: "A professional-grade Discord bot for Solana token swaps, leveraging Jito Bundles. This bot seamlessly integrates with platforms like Raydium, Pump.fun, and Meteora, while utilizing the Dextools API and Jupiter v6 Swap API for efficient and reliable token swap operations.",
                 image:
