@@ -12896,6 +12896,17 @@ const __vite__mapDeps = (
                 featured: !0,
               },
               {
+                title: "Rainbow-swap",
+                description: "Swap Aggregator on TON.",
+                image:
+                  "https://i.postimg.cc/Hxmpc6nG/rainbow-swap.png",
+                link: "https://rainbow.ag/",
+                github: "https://github.com/mattdev071/RB-swap-Ton",
+                category: "blockchain",
+                tags: ["Next.js", "React", "Node.js", "MongoDB", "TailwindCSS", "FunC"],
+                featured: !0,
+              },
+              {
                 title: "Next Ventures",
                 description: "Developed a platform for virtual pitch competitions using Next.js 15, enabling smooth idea sharing and exploration with optimal performance.",
                 image:
